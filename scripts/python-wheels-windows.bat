@@ -34,7 +34,7 @@ call activate arrow
 
 set ARROW_SRC=C:\apache-arrow
 mkdir %ARROW_SRC%
-git clone https://github.com/apache/arrow.git %ARROW_SRC% || exit /B
+git clone %ARROW_GIT_REPO% %ARROW_SRC% || exit /B
 pushd %ARROW_SRC%
 
 @rem fix up symlinks

@@ -31,9 +31,10 @@ environment:
   MSVC_DEFAULT_OPTIONS: ON
   BOOST_ROOT: C:\Libraries\boost_1_63_0
   BOOST_LIBRARYDIR: C:\Libraries\boost_1_63_0\lib64-msvc-14.0
-  pyarrow_version: 0.7.0
-  pyarrow_commit: 97f9029ce835dfc2655ca91b9820a2e6aed89107
-  parquet_commit: 18ca3922e688a3a730d693ff8f2cfbfd65da8c46
+  pyarrow_version: 0.7.1-dev
+  ARROW_GIT_REPO: https://github.com/wesm/arrow.git
+  pyarrow_commit: e8f6c73d8434c5746fa843d5425eb85f8b150a3e
+  parquet_commit: b1099e4f46f34bfdf1c82b5e952191af14030750
 
 init:
   - set MINICONDA=C:\Miniconda35-x64
